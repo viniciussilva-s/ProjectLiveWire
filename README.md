@@ -75,6 +75,13 @@ php artisan db:seed
 php artisan serve
 ```
 
+### 8. Para teste unit
+
+```bash
+php artisan test
+```
+
+
 ---
 
 ## 📝 Observações
