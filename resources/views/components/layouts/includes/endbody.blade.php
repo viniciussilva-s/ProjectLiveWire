@@ -41,5 +41,3 @@
 
     });
 </script>
-
-${errors.map(error => `<li>${error}</li>`).join('')}
