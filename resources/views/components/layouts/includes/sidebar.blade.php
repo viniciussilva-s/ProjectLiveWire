@@ -22,12 +22,12 @@
         <ul class="menu">
             <li class="menu-title">Navegação</li>
             <li class="menu-item">
-                <a href="#menuTasks" data-bs-toggle="collapse" class="menu-link">
+                <a href="#menuTasks1" data-bs-toggle="collapse" class="menu-link">
                     <span class="menu-icon"><i data-feather="package"></i></span>
                     <span class="menu-text"> Categorias </span>
                     <span class="menu-arrow"></span>
                 </a>
-                <div class="collapse" id="menuTasks">
+                <div class="collapse" id="menuTasks1">
                     <ul class="sub-menu">
 
                         <li class="menu-item">
@@ -40,12 +40,12 @@
                 </div>
             </li>
             <li class="menu-item">
-                <a href="#menuTasks" data-bs-toggle="collapse" class="menu-link">
+                <a href="#menuTasks2" data-bs-toggle="collapse" class="menu-link">
                     <span class="menu-icon"><i data-feather="clipboard"></i></span>
                     <span class="menu-text"> Chamados </span>
                     <span class="menu-arrow"></span>
                 </a>
-                <div class="collapse" id="menuTasks">
+                <div class="collapse" id="menuTasks2">
                     <ul class="sub-menu">
                         <li class="menu-item">
                             <a href="{{ route('tickets.list') }}" class="menu-link">
